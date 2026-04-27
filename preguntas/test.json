@@ -1,0 +1,719 @@
+[
+  {
+    "Pregunta": "¿Cuál es la principal diferencia estructural entre una arquitectura de microservicios y una arquitectura SOA (Service-Oriented Architecture)?",
+    "Opciones": [
+      [
+        "a",
+        "Los microservicios comparten típicamente una base de datos única para todos los componentes."
+      ],
+      [
+        "b",
+        "La arquitectura SOA utiliza protocolos estándar como SOAP y un bus de servicios empresarial (ESB)."
+      ],
+      [
+        "c",
+        "Los microservicios se despliegan como una única unidad completa e indivisible."
+      ],
+      [
+        "d",
+        "La arquitectura SOA se escala horizontalmente duplicando toda la aplicación."
+      ]
+    ],
+    "Respuesta": "b"
+  },
+  {
+    "Pregunta": "En el contexto de los principios SOLID, ¿qué establece el principio de Inversión de Dependencias (DIP)?",
+    "Opciones": [
+      [
+        "a",
+        "Cada clase debe tener una única razón para cambiar, simplificando su mantenimiento."
+      ],
+      [
+        "b",
+        "Las clases de alto nivel no deben depender de las de bajo nivel; ambas deben depender de abstracciones."
+      ],
+      [
+        "c",
+        "El código debe estar abierto para su extensión pero cerrado para cualquier modificación posterior."
+      ],
+      [
+        "d",
+        "Las clases derivadas deben poder sustituir a sus clases base sin alterar el comportamiento del programa."
+      ]
+    ],
+    "Respuesta": "b"
+  },
+  {
+    "Pregunta": "¿Qué factor diferencia fundamentalmente una estrategia omnicanal de una multicanal en la relación con el cliente?",
+    "Opciones": [
+      [
+        "a",
+        "La multicanalidad ofrece múltiples puntos de contacto independientes sin integración profunda."
+      ],
+      [
+        "b",
+        "La multicanalidad garantiza una experiencia de usuario coherente y sin fricciones entre canales."
+      ],
+      [
+        "c",
+        "La omnicanalidad mantiene silos de información aislados para cada canal de venta."
+      ],
+      [
+        "d",
+        "La omnicanalidad se basa exclusivamente en la apertura de tiendas físicas adicionales."
+      ]
+    ],
+    "Respuesta": "a"
+  },
+  {
+    "Pregunta": "¿Cuál es el número mínimo de discos requeridos para implementar un nivel de RAID 6 y qué protección ofrece?",
+    "Opciones": [
+      [
+        "a",
+        "Mínimo 2 discos, permitiendo el fallo de un solo disco sin pérdida de datos."
+      ],
+      [
+        "b",
+        "Mínimo 3 discos, ofreciendo paridad distribuida y tolerancia al fallo de un disco."
+      ],
+      [
+        "c",
+        "Mínimo 4 discos, ofreciendo doble paridad y tolerancia al fallo de hasta dos discos."
+      ],
+      [
+        "d",
+        "Mínimo 4 discos, combinando velocidad de striping con seguridad de mirroring."
+      ]
+    ],
+    "Respuesta": "c"
+  },
+  {
+    "Pregunta": "En la administración de sistemas Linux, ¿qué funcionalidad avanzada aporta el sistema de archivos ZFS respecto a la integridad de datos?",
+    "Opciones": [
+      [
+        "a",
+        "Permite el montaje transparente de sistemas de archivos remotos mediante red."
+      ],
+      [
+        "b",
+        "Elimina el problema del 'write hole' del RAID tradicional mediante checksums end-to-end."
+      ],
+      [
+        "c",
+        "Optimiza exclusivamente el rendimiento de I/O para grandes volúmenes de bases de datos."
+      ],
+      [
+        "d",
+        "Garantiza la compatibilidad universal con sistemas operativos Windows y macOS."
+      ]
+    ],
+    "Respuesta": "b"
+  },
+  {
+    "Pregunta": "Si se desea diseñar un servidor de base de datos que priorice el máximo rendimiento posible, ¿qué combinación de RAID y filesystem es la más recomendada según las fuentes?",
+    "Opciones": [
+      ["a", "RAID 1 sobre sistema de archivos ext4."],
+      ["b", "RAID 5 sobre sistema de archivos FAT32."],
+      ["c", "RAID 10 sobre sistema de archivos XFS."],
+      ["d", "RAIDZ2 sobre sistema de archivos ZFS."]
+    ],
+    "Respuesta": "c"
+  },
+  {
+    "Pregunta": "¿Cuál es la distinción técnica principal entre un hipervisor de Tipo 1 (bare-metal) y uno de Tipo 2 (hosted)?",
+    "Opciones": [
+      [
+        "a",
+        "El Tipo 1 se ejecuta directamente sobre el hardware físico, mientras que el Tipo 2 lo hace sobre un SO anfitrión."
+      ],
+      [
+        "b",
+        "El Tipo 2 ofrece mayor rendimiento que el Tipo 1 al no tener capas intermedias."
+      ],
+      [
+        "c",
+        "El Tipo 1 está diseñado para entornos de desarrollo personal como VirtualBox o VMware Workstation."
+      ],
+      [
+        "d",
+        "El Tipo 2 gestiona recursos de hardware de forma aislada e independiente de cualquier software previo."
+      ]
+    ],
+    "Respuesta": "a"
+  },
+  {
+    "Pregunta": "En la comparativa entre virtualización y contenedores, ¿cuál de las siguientes afirmaciones es correcta sobre el uso del kernel?",
+    "Opciones": [
+      [
+        "a",
+        "Las máquinas virtuales comparten el mismo kernel del sistema operativo host."
+      ],
+      [
+        "b",
+        "Los contenedores incluyen un sistema operativo completo con su propio kernel independiente."
+      ],
+      [
+        "c",
+        "Los contenedores comparten el kernel del SO host, reduciendo drásticamente el overhead."
+      ],
+      [
+        "d",
+        "Las máquinas virtuales arrancan en segundos al no requerir la carga de un kernel propio."
+      ]
+    ],
+    "Respuesta": "c"
+  },
+  {
+    "Pregunta": "Dentro de la estructura lógica de Active Directory, ¿cuál es el propósito principal de una Unidad Organizativa (OU)?",
+    "Opciones": [
+      [
+        "a",
+        "Actuar como la raíz única de todo el bosque para centralizar la autenticación DNS."
+      ],
+      [
+        "b",
+        "Servir como contenedor lógico para agrupar objetos y delegar el control administrativo."
+      ],
+      [
+        "c",
+        "Establecer una relación de confianza transitoria entre dos dominios de distintos bosques."
+      ],
+      [
+        "d",
+        "Almacenar físicamente la base de datos del directorio en el controlador de dominio."
+      ]
+    ],
+    "Respuesta": "b"
+  },
+  {
+    "Pregunta": "Siguiendo la estrategia de permisos AGDLP en entornos Microsoft, ¿cuál es el orden correcto de asignación?",
+    "Opciones": [
+      ["a", "Global groups -> Domain Local groups -> Accounts -> Permissions."],
+      ["b", "Accounts -> Domain Local groups -> Global groups -> Permissions."],
+      ["c", "Accounts -> Global groups -> Domain Local groups -> Permissions."],
+      ["d", "Permissions -> Domain Local groups -> Global groups -> Accounts."]
+    ],
+    "Respuesta": "c"
+  },
+  {
+    "Pregunta": "¿En qué orden se aplican jerárquicamente los Objetos de Directiva de Grupo (GPO) en Active Directory?",
+    "Opciones": [
+      ["a", "Sitio -> Dominio -> Unidad Organizativa."],
+      ["b", "Unidad Organizativa -> Dominio -> Sitio."],
+      ["c", "Dominio -> Sitio -> Unidad Organizativa."],
+      ["d", "Local -> Unidad Organizativa -> Dominio."]
+    ],
+    "Respuesta": "a"
+  },
+  {
+    "Pregunta": "En el protocolo de autenticación Kerberos, ¿qué función cumple el TGT (Ticket Granting Ticket)?",
+    "Opciones": [
+      [
+        "a",
+        "Es el ticket que el usuario presenta directamente al servicio final para obtener acceso."
+      ],
+      [
+        "b",
+        "Permite al cliente solicitar tickets de servicio al KDC sin tener que reintroducir su contraseña."
+      ],
+      [
+        "c",
+        "Se utiliza únicamente para la comunicación entre diferentes bosques de Active Directory."
+      ],
+      [
+        "d",
+        "Es una credencial de un solo uso que se descarta inmediatamente tras el inicio de sesión."
+      ]
+    ],
+    "Respuesta": "b"
+  },
+  {
+    "Pregunta": "En un Plan de Recuperación ante Desastres (DRP), ¿qué define el concepto de RPO (Recovery Point Objective)?",
+    "Opciones": [
+      [
+        "a",
+        "El tiempo máximo aceptable para restaurar la operatividad de un sistema tras un incidente."
+      ],
+      [
+        "b",
+        "La cantidad máxima de datos (medida en tiempo) que la organización puede permitirse perder."
+      ],
+      [
+        "c",
+        "El presupuesto total asignado para la adquisición de hardware de respaldo en sitios alternos."
+      ],
+      [
+        "d",
+        "La distancia geográfica mínima requerida entre el centro de datos principal y el secundario."
+      ]
+    ],
+    "Respuesta": "b"
+  },
+  {
+    "Pregunta": "Usted debe elegir un modelo de servicio cloud que proporcione el máximo control sobre el sistema operativo y la red virtual. ¿Cuál es el más adecuado?",
+    "Opciones": [
+      ["a", "Software as a Service (SaaS)."],
+      ["b", "Platform as a Service (PaaS)."],
+      ["c", "Infrastructure as a Service (IaaS)."],
+      ["d", "Function as a Service (FaaS)."]
+    ],
+    "Respuesta": "c"
+  },
+  {
+    "Pregunta": "Según la definición del NIST, ¿cuál de estas NO es una de las cinco características esenciales del Cloud Computing?",
+    "Opciones": [
+      ["a", "Autoservicio bajo demanda."],
+      ["b", "Acceso universal a la red."],
+      ["c", "Aislamiento físico de servidores."],
+      ["d", "Elasticidad rápida."]
+    ],
+    "Respuesta": "c"
+  },
+  {
+    "Pregunta": "En el modelo de responsabilidad compartida de la nube para IaaS, ¿qué tarea suele recaer en el cliente?",
+    "Opciones": [
+      ["a", "Gestión de la infraestructura física del centro de datos."],
+      ["b", "Mantenimiento y parcheo de la capa de virtualización."],
+      [
+        "c",
+        "Configuración de seguridad de red y parcheo del sistema operativo invitado."
+      ],
+      ["d", "Gestión de la redundancia eléctrica de los racks de servidores."]
+    ],
+    "Respuesta": "c"
+  },
+  {
+    "Pregunta": "¿Cuál es el principal beneficio técnico de implementar una arquitectura de Edge Computing frente a la nube centralizada?",
+    "Opciones": [
+      [
+        "a",
+        "Reducción masiva de la latencia al procesar datos cerca del punto de origen."
+      ],
+      [
+        "b",
+        "Centralización total de la administración de seguridad en un único nodo maestro."
+      ],
+      [
+        "c",
+        "Eliminación completa de la necesidad de contar con dispositivos finales inteligentes."
+      ],
+      [
+        "d",
+        "Incremento del tráfico de red hacia el núcleo de la infraestructura para su análisis."
+      ]
+    ],
+    "Respuesta": "a"
+  },
+  {
+    "Pregunta": "¿Cuál es la característica clave de una herramienta de automatización idempotente como Ansible?",
+    "Opciones": [
+      [
+        "a",
+        "Requiere la instalación de agentes complejos en todos los nodos gestionados."
+      ],
+      [
+        "b",
+        "Ejecutar la misma operación múltiples veces produce siempre el mismo resultado final."
+      ],
+      [
+        "c",
+        "Solo funciona correctamente en entornos locales sin conexión a redes externas."
+      ],
+      [
+        "d",
+        "Depende exclusivamente de scripts manuales escritos en lenguaje imperativo."
+      ]
+    ],
+    "Respuesta": "b"
+  },
+  {
+    "Pregunta": "El Sistema de Gestión de Seguridad de la Información (SGSI) se basa fundamentalmente en qué norma internacional?",
+    "Opciones": [
+      ["a", "ISO 9001."],
+      ["b", "ISO 27001."],
+      ["c", "IEEE 802.11."],
+      ["d", "NIST SP 800-53."]
+    ],
+    "Respuesta": "b"
+  },
+  {
+    "Pregunta": "¿Cuál es el riesgo crítico inherente al modelo de integración Hub-and-Spoke?",
+    "Opciones": [
+      [
+        "a",
+        "La creación de un número excesivo de conexiones punto a punto entre sistemas."
+      ],
+      [
+        "b",
+        "El hub central se convierte en un punto único de fallo (SPOF) para toda la red."
+      ],
+      [
+        "c",
+        "La imposibilidad de aplicar reglas de negocio centralizadas para la transformación de datos."
+      ],
+      [
+        "d",
+        "El alto acoplamiento inicial que impide cualquier cambio individual en los sistemas periféricos."
+      ]
+    ],
+    "Respuesta": "b"
+  },
+  {
+    "Pregunta": "En una gran empresa con infraestructura diversa, ¿cuándo es preferible utilizar un Enterprise Service Bus (ESB)?",
+    "Opciones": [
+      [
+        "a",
+        "Cuando se busca integrar sistemas legados complejos que utilizan múltiples protocolos."
+      ],
+      [
+        "b",
+        "Para el desarrollo de aplicaciones web simples con requerimientos de baja escalabilidad."
+      ],
+      [
+        "c",
+        "En startups que inician proyectos cloud-native basados exclusivamente en microservicios."
+      ],
+      [
+        "d",
+        "Para eliminar la necesidad de cualquier componente middleware en la arquitectura de red."
+      ]
+    ],
+    "Respuesta": "a"
+  },
+  {
+    "Pregunta": "¿Qué problema específico del RAID tradicional soluciona la implementación RAIDZ de ZFS?",
+    "Opciones": [
+      [
+        "a",
+        "La lentitud en la reconstrucción de datos mediante el uso de cintas de backup."
+      ],
+      [
+        "b",
+        "El 'write hole', garantizando la integridad de cada byte mediante checksums end-to-end."
+      ],
+      [
+        "c",
+        "La necesidad de utilizar controladores de hardware RAID costosos y propietarios."
+      ],
+      [
+        "d",
+        "La limitación de poder utilizar únicamente un máximo de tres discos físicos."
+      ]
+    ],
+    "Respuesta": "b"
+  },
+  {
+    "Pregunta": "En Linux, si ejecutamos el comando 'chmod 755 archivo', ¿qué permisos estamos otorgando?",
+    "Opciones": [
+      ["a", "Control total para el propietario y solo lectura para el resto."],
+      [
+        "b",
+        "Lectura, escritura y ejecución para el propietario; lectura y ejecución para grupo y otros."
+      ],
+      ["c", "Solo lectura para todos los usuarios del sistema sin excepción."],
+      [
+        "d",
+        "Lectura y escritura para el propietario y su grupo; solo ejecución para otros."
+      ]
+    ],
+    "Respuesta": "b"
+  },
+  {
+    "Pregunta": "¿Cuál es la diferencia fundamental entre los protocolos NTLM y Kerberos en Active Directory?",
+    "Opciones": [
+      [
+        "a",
+        "NTLM utiliza tickets de tiempo limitado mientras que Kerberos se basa en desafío-respuesta."
+      ],
+      [
+        "b",
+        "Kerberos es el protocolo principal basado en tickets, mientras que NTLM es un protocolo heredado."
+      ],
+      [
+        "c",
+        "Kerberos no requiere sincronización horaria entre los nodos de la red para funcionar."
+      ],
+      [
+        "d",
+        "NTLM es considerablemente más seguro que Kerberos para redes modernas sin dominio."
+      ]
+    ],
+    "Respuesta": "b"
+  },
+  {
+    "Pregunta": "Durante la fase de activación de un DRP tras un desastre, ¿cuál es el paso inmediato posterior a la detección?",
+    "Opciones": [
+      ["a", "El traslado inmediato de toda la operativa a la nube pública."],
+      [
+        "b",
+        "La evaluación de los daños para decidir si se activa el sitio de recuperación alternativo."
+      ],
+      [
+        "c",
+        "La restauración completa de todas las bases de datos desde backups históricos."
+      ],
+      [
+        "d",
+        "La comunicación externa a clientes informando que el servicio ha sido recuperado."
+      ]
+    ],
+    "Respuesta": "b"
+  },
+  {
+    "Pregunta": "¿Cómo impacta económicamente la migración a la nube en la estructura de costes de una organización?",
+    "Opciones": [
+      [
+        "a",
+        "Elimina los gastos operativos (OPEX) para centrarse en inversiones de capital (CAPEX)."
+      ],
+      [
+        "b",
+        "Transforma las inversiones iniciales elevadas (CAPEX) en gastos operativos flexibles (OPEX)."
+      ],
+      [
+        "c",
+        "Garantiza un coste cero en mantenimiento y actualización de sistemas de seguridad."
+      ],
+      [
+        "d",
+        "Aumenta el TCO al requerir la compra constante de hardware robusto y redundante."
+      ]
+    ],
+    "Respuesta": "b"
+  },
+  {
+    "Pregunta": "En el modelo FaaS (Function as a Service), ¿qué significa el concepto 'escalado a cero'?",
+    "Opciones": [
+      [
+        "a",
+        "Que la función no consume recursos ni genera costes cuando no hay ejecuciones activas."
+      ],
+      [
+        "b",
+        "Que el rendimiento de la aplicación disminuye proporcionalmente a la carga de usuarios."
+      ],
+      [
+        "c",
+        "Que es necesario pre-aprovisionar un número mínimo de servidores virtuales siempre activos."
+      ],
+      [
+        "d",
+        "Que las funciones solo pueden ejecutarse una vez cada periodo de facturación mensual."
+      ]
+    ],
+    "Respuesta": "a"
+  },
+  {
+    "Pregunta": "Al diseñar una arquitectura de alta disponibilidad, ¿cuál es la ventaja de un enfoque Multi-Region frente a uno Multi-AZ?",
+    "Opciones": [
+      [
+        "a",
+        "Ofrece mayor latencia para los usuarios locales de una misma zona geográfica."
+      ],
+      [
+        "b",
+        "Garantiza la continuidad del servicio incluso ante fallos catastróficos que afecten a toda una zona geográfica."
+      ],
+      [
+        "c",
+        "Requiere una configuración de red mucho más simple y económica que el uso de zonas de disponibilidad."
+      ],
+      [
+        "d",
+        "Permite la sincronización de datos en microsegundos sin necesidad de enlaces de alta velocidad."
+      ]
+    ],
+    "Respuesta": "b"
+  },
+  {
+    "Pregunta": "Bajo el Reglamento General de Protección de Datos (GDPR), ¿qué implica el 'Derecho al Olvido'?",
+    "Opciones": [
+      [
+        "a",
+        "El derecho de las empresas a ocultar brechas de seguridad a los usuarios finales."
+      ],
+      [
+        "b",
+        "La capacidad de los usuarios de solicitar la eliminación de sus datos personales cuando ya no sean necesarios."
+      ],
+      [
+        "c",
+        "La obligación de las organizaciones de archivar todos los datos de usuario de forma indefinida."
+      ],
+      [
+        "d",
+        "El permiso implícito para transferir datos a terceros países sin consentimiento del titular."
+      ]
+    ],
+    "Respuesta": "b"
+  },
+  {
+    "Pregunta": "¿Cuál es el objetivo principal de la iniciativa europea GAIA-X?",
+    "Opciones": [
+      [
+        "a",
+        "Crear un proveedor de servicios cloud único que compita directamente con AWS y Azure."
+      ],
+      [
+        "b",
+        "Desarrollar una infraestructura de datos federada que garantice la soberanía digital y la interoperabilidad."
+      ],
+      [
+        "c",
+        "Establecer un impuesto único europeo para todas las transacciones realizadas en la nube."
+      ],
+      [
+        "d",
+        "Prohibir el uso de servicios cloud estadounidenses dentro de las administraciones públicas europeas."
+      ]
+    ],
+    "Respuesta": "b"
+  },
+  {
+    "Pregunta": "En el marco de la observabilidad cloud, ¿cuál es el propósito específico de las trazas distribuidas?",
+    "Opciones": [
+      [
+        "a",
+        "Registrar valores numéricos continuos que representan el estado del sistema en tiempo real."
+      ],
+      [
+        "b",
+        "Realizar un seguimiento completo de las peticiones a través de múltiples microservicios interconectados."
+      ],
+      [
+        "c",
+        "Almacenar logs estructurados en formato JSON para su posterior análisis forense."
+      ],
+      [
+        "d",
+        "Monitorear exclusivamente el uso de CPU y memoria RAM en servidores físicos locales."
+      ]
+    ],
+    "Respuesta": "b"
+  },
+  {
+    "Pregunta": "¿Qué mecanismo utilizan los clústeres de alta disponibilidad para verificar el estado de salud de cada nodo?",
+    "Opciones": [
+      ["a", "Copias de seguridad automáticas realizadas cada pocos minutos."],
+      [
+        "b",
+        "Uso de 'heartbeats' (latidos) y comprobaciones periódicas de conectividad."
+      ],
+      [
+        "c",
+        "Migración constante de máquinas virtuales entre nodos sanos sin interrupción."
+      ],
+      [
+        "d",
+        "Reinicio automático de todos los servicios cada vez que se detecta una petición lenta."
+      ]
+    ],
+    "Respuesta": "b"
+  },
+  {
+    "Pregunta": "¿Qué principio fundamental de seguridad establece que un usuario debe tener únicamente los privilegios mínimos necesarios?",
+    "Opciones": [
+      ["a", "Principio de defensa en profundidad."],
+      ["b", "Principio de menor privilegio (Least Privilege)."],
+      ["c", "Principio de autenticación multifactor."],
+      ["d", "Principio de transparencia y auditoría continua."]
+    ],
+    "Respuesta": "b"
+  },
+  {
+    "Pregunta": "En Active Directory, ¿qué alcance tiene un 'Grupo Universal'?",
+    "Opciones": [
+      [
+        "a",
+        "Solo puede contener usuarios del mismo dominio y no es utilizable fuera de este."
+      ],
+      [
+        "b",
+        "Permite otorgar permisos en su propio dominio y puede contener usuarios de cualquier dominio."
+      ],
+      [
+        "c",
+        "Está disponible en todo el bosque y es ideal para organizaciones multi-dominio."
+      ],
+      [
+        "d",
+        "Se limita exclusivamente a la gestión de permisos en máquinas locales fuera del dominio."
+      ]
+    ],
+    "Respuesta": "c"
+  },
+  {
+    "Pregunta": "¿Cuál es el principal inconveniente de una arquitectura monolítica frente a una basada en microservicios?",
+    "Opciones": [
+      [
+        "a",
+        "Mayor complejidad inicial en las pruebas de extremo a extremo (end-to-end)."
+      ],
+      [
+        "b",
+        "Dificultad de escalar horizontalmente y fuerte acoplamiento entre componentes."
+      ],
+      [
+        "c",
+        "Necesidad de gestionar múltiples bases de datos independientes por cada función."
+      ],
+      [
+        "d",
+        "Alto overhead operativo derivado del uso intensivo de Kubernetes y Docker."
+      ]
+    ],
+    "Respuesta": "b"
+  },
+  {
+    "Pregunta": "¿Qué nivel de RAID combina la velocidad del striping con la redundancia del mirroring, requiriendo al menos 4 discos?",
+    "Opciones": [
+      ["a", "RAID 5."],
+      ["b", "RAID 6."],
+      ["c", "RAID 10."],
+      ["d", "RAID 0+1."]
+    ],
+    "Respuesta": "c"
+  },
+  {
+    "Pregunta": "En una arquitectura cloud híbrida, ¿qué concepto describe la expansión temporal de recursos hacia la nube pública para picos de demanda?",
+    "Opciones": [
+      ["a", "Cloud Bursting."],
+      ["b", "Edge Computing."],
+      ["c", "Serverless Computing."],
+      ["d", "Multitenancy."]
+    ],
+    "Respuesta": "a"
+  },
+  {
+    "Pregunta": "¿Qué práctica de DevSecOps promueve la integración de seguridad desde las primeras fases del ciclo de vida del software?",
+    "Opciones": [
+      ["a", "Infraestructura como Código (IaC)."],
+      ["b", "Shift Left Security."],
+      ["c", "Continuous Deployment (CD)."],
+      ["d", "Test Driven Development (TDD)."]
+    ],
+    "Respuesta": "b"
+  },
+  {
+    "Pregunta": "¿Qué elementos se incluyen habitualmente en el cálculo del Coste Total de Propiedad (TCO) más allá del precio del hardware?",
+    "Opciones": [
+      [
+        "a",
+        "Únicamente las facturas mensuales de electricidad y conexión a internet."
+      ],
+      [
+        "b",
+        "Mantenimiento, consumo energético, espacio físico, licencias y personal especializado."
+      ],
+      [
+        "c",
+        "El retorno de inversión directo calculado exclusivamente por las ventas netas."
+      ],
+      [
+        "d",
+        "Las penalizaciones legales derivadas del incumplimiento de normativas de privacidad."
+      ]
+    ],
+    "Respuesta": "b"
+  }
+]
