@@ -1,0 +1,102 @@
+[
+  {
+    "Pregunta": "¿Cuál es la capital de España?",
+    "Opciones": [["a", "Barcelona"], ["b", "Madrid"], ["c", "Valencia"], ["d", "Sevilla"]],
+    "Respuesta": "b"
+  },
+  {
+    "Pregunta": "¿Cuánto es 2 + 2?",
+    "Opciones": [["a", "3"], ["b", "4"], ["c", "5"], ["d", "6"]],
+    "Respuesta": "b"
+  },
+  {
+    "Pregunta": "¿Cuál es el planeta más cercano al Sol?",
+    "Opciones": [["a", "Venus"], ["b", "Marte"], ["c", "Mercurio"], ["d", "Júpiter"]],
+    "Respuesta": "c"
+  },
+  {
+    "Pregunta": "¿Qué lenguaje se ejecuta en el navegador?",
+    "Opciones": [["a", "Python"], ["b", "Java"], ["c", "C++"], ["d", "JavaScript"]],
+    "Respuesta": "d"
+  },
+  {
+    "Pregunta": "¿Cuántos días tiene una semana?",
+    "Opciones": [["a", "5"], ["b", "6"], ["c", "7"], ["d", "8"]],
+    "Respuesta": "c"
+  },
+  {
+    "Pregunta": "¿Cuál es el océano más grande?",
+    "Opciones": [["a", "Atlántico"], ["b", "Índico"], ["c", "Pacífico"], ["d", "Ártico"]],
+    "Respuesta": "c"
+  },
+  {
+    "Pregunta": "¿Qué número es primo?",
+    "Opciones": [["a", "4"], ["b", "6"], ["c", "9"], ["d", "7"]],
+    "Respuesta": "d"
+  },
+  {
+    "Pregunta": "¿Cuál es el resultado de 5 x 5?",
+    "Opciones": [["a", "10"], ["b", "20"], ["c", "25"], ["d", "30"]],
+    "Respuesta": "c"
+  },
+  {
+    "Pregunta": "¿Cuál es el lenguaje de estilos web?",
+    "Opciones": [["a", "HTML"], ["b", "CSS"], ["c", "JS"], ["d", "SQL"]],
+    "Respuesta": "b"
+  },
+  {
+    "Pregunta": "¿Cuál es el metal más abundante en la Tierra?",
+    "Opciones": [["a", "Hierro"], ["b", "Oro"], ["c", "Plata"], ["d", "Cobre"]],
+    "Respuesta": "a"
+  },
+  {
+    "Pregunta": "¿Cuántos continentes hay?",
+    "Opciones": [["a", "5"], ["b", "6"], ["c", "7"], ["d", "8"]],
+    "Respuesta": "c"
+  },
+  {
+    "Pregunta": "¿Cuál es el idioma más hablado del mundo?",
+    "Opciones": [["a", "Español"], ["b", "Inglés"], ["c", "Chino mandarín"], ["d", "Francés"]],
+    "Respuesta": "c"
+  },
+  {
+    "Pregunta": "¿Cuál es el valor de PI aproximado?",
+    "Opciones": [["a", "2.14"], ["b", "3.14"], ["c", "4.14"], ["d", "5.14"]],
+    "Respuesta": "b"
+  },
+  {
+    "Pregunta": "¿Qué tipo de archivo es .js?",
+    "Opciones": [["a", "Imagen"], ["b", "Texto"], ["c", "Script"], ["d", "Audio"]],
+    "Respuesta": "c"
+  },
+  {
+    "Pregunta": "¿Cuál es la raíz cuadrada de 16?",
+    "Opciones": [["a", "2"], ["b", "4"], ["c", "6"], ["d", "8"]],
+    "Respuesta": "b"
+  },
+  {
+    "Pregunta": "¿Qué instrumento mide la temperatura?",
+    "Opciones": [["a", "Barómetro"], ["b", "Termómetro"], ["c", "Higrómetro"], ["d", "Anemómetro"]],
+    "Respuesta": "b"
+  },
+  {
+    "Pregunta": "¿Cuál es el río más largo del mundo?",
+    "Opciones": [["a", "Nilo"], ["b", "Amazonas"], ["c", "Danubio"], ["d", "Misisipi"]],
+    "Respuesta": "b"
+  },
+  {
+    "Pregunta": "¿Qué significa HTML?",
+    "Opciones": [["a", "Hyper Trainer Marking Language"], ["b", "Hyper Text Markup Language"], ["c", "Hyper Text Marketing Language"], ["d", "Home Tool Markup Language"]],
+    "Respuesta": "b"
+  },
+  {
+    "Pregunta": "¿Qué sistema operativo es de código abierto?",
+    "Opciones": [["a", "Windows"], ["b", "macOS"], ["c", "Linux"], ["d", "iOS"]],
+    "Respuesta": "c"
+  },
+  {
+    "Pregunta": "¿Cuántos bits tiene un byte?",
+    "Opciones": [["a", "4"], ["b", "8"], ["c", "16"], ["d", "32"]],
+    "Respuesta": "b"
+  }
+]

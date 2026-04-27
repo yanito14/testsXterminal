@@ -1,0 +1,69 @@
+Genera una batería de 40 preguntas tipo test siguiendo estrictamente estas instrucciones:
+
+1. FORMATO DE SALIDA (OBLIGATORIO)
+Devuelve exclusivamente un JSON válido con la siguiente estructura:
+
+[
+  {
+    "Pregunta": "Texto de la pregunta",
+    "Opciones": [["a", "opción 1"], ["b", "opción 2"], ["c", "opción 3"], ["d", "opción 4"]],
+    "Respuesta": "letra"
+  }
+]
+
+- No añadas explicaciones ni texto fuera del JSON.
+- Todas las preguntas deben tener exactamente 4 respuestas.
+- La clave "Respuesta" debe contener solo "a", "b", "c" o "d".
+
+---
+
+2. CALIDAD Y DIFICULTAD
+- Nivel: medio-alto / examen universitario.
+- Evita preguntas triviales o memorísticas simples.
+- Prioriza comprensión profunda y razonamiento.
+
+---
+
+3. TAXONOMÍA DE BLOOM (OBLIGATORIO)
+Las preguntas deben estar equilibradas entre estos niveles:
+- Recordar
+- Comprender
+- Aplicar
+- Analizar
+- Evaluar
+- Crear
+
+Distribuye las preguntas de forma variada entre estos niveles.
+
+---
+
+4. DISEÑO DE RESPUESTAS
+- Todas las opciones deben tener longitud similar.
+- Evita respuestas obviamente incorrectas.
+- Evita patrones (no repetir estructuras tipo “todas las correctas son la c”).
+- Distribuye aleatoriamente las respuestas correctas entre a, b, c y d.
+
+---
+
+5. CONTENIDO
+===================================================================================================================================================
+Las preguntas deben centrarse en: [ESPECIFICA AQUÍ EL TEMA]
+===================================================================================================================================================
+---
+
+6. CONSISTENCIA TÉCNICA
+- Las preguntas deben ser claras, precisas y sin ambigüedad.
+- Solo una respuesta debe ser correcta.
+- Evita duplicidades o preguntas repetidas.
+
+---
+
+7. OBJETIVO
+El JSON debe ser directamente usable en un programa JavaScript para generar tests en terminal o interfaz.
+
+---
+
+IMPORTANTE:
+- NO incluyas texto adicional fuera del JSON.
+- NO expliques las respuestas.
+- SOLO devuelve el array JSON.
