@@ -31,7 +31,7 @@ function iniciarTest() {
   let puntaje = 0;
 
   for (let i = 0; i < preguntas.length; i++) {
-    console.log(`Pregunta ${i + 1}: ${preguntas[i]}`);
+    console.log(`\n Pregunta ${i + 1}: ${preguntas[i]} \n`);
 
     for (let j = 0; j < opciones[i].length; j++) {
       const letra = opciones[i][j][0];
@@ -39,7 +39,7 @@ function iniciarTest() {
       console.log(`${letra}. ${texto}`);
     }
 
-    const respuestaUsuario = prompt("Tu respuesta: ");
+    const respuestaUsuario = prompt("\n Tu respuesta: ");
 
     if (respuestaUsuario && respuestaUsuario.toUpperCase() === respuestas[i].toUpperCase()) {
       console.log("¡Correcto!");
