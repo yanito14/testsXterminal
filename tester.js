@@ -8,7 +8,7 @@
 const promptSync = require("prompt-sync");
 
 //CAMBIAMOS EL JSON POR EL QUE TOQUE PARA CADA TEST, SOLO CAMBIAR EL NOMBRE
-const json = require("./preguntas/test.json");
+const json = require("./preguntas/test2.json");
 
 const prompt = promptSync();
 
